@@ -50,13 +50,29 @@ Supports **PlaceholderAPI**, private messaging, staff chat, mute chat, cooldowns
 ## ⚙️ Config Overview
 ```yaml
 chat:
-  format: "%rank% %player_name%: %message%"
-  muted: "&cChat is currently muted!"
-  cooldown-time: 5
-  cooldown: "&ePlease wait %seconds%s before chatting again."
+  format: "&7%rank% &b%player_name% &7» &f%message%"
+  private-to: "&d✉ You → %to%: &f%message%"
+  private-from: "&d✉ %from% → You: &f%message%"
+  muted: "&c⚠ Chat is currently muted!"
+  cooldown: "&c⚠ You must wait %seconds%s before chatting again!"
+  cooldown-time: 5 # seconds
+
 
 staff-chat:
   enabled: true
+  permission: "chatcorex.staffchat"
+  format: "&5[Staff] &b%player_name% &7» &f%message%"
+
+anti-swear:
+  enabled: true
+  blocked-words:
+  # here blocked words
+
+
+  replacement: "***" # overridden by dynamic star-length censoring
+  notify-staff: true
+  staff-permission: "chatcorex.antiswear.notify"
+
 ```
 
 👤 Author

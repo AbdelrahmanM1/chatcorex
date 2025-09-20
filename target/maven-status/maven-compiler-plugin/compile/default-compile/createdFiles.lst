@@ -1,9 +1,0 @@
-dev\abdelrahman\chatcorex\commands\MsgCommand.class
-dev\abdelrahman\chatcorex\commands\MuteChatCommand.class
-dev\abdelrahman\chatcorex\utils\MessageUtils.class
-dev\abdelrahman\chatcorex\commands\StaffChatCommand.class
-dev\abdelrahman\chatcorex\listeners\ChatListener.class
-dev\abdelrahman\chatcorex\commands\ReplyCommand.class
-dev\abdelrahman\chatcorex\commands\ReloadCommand.class
-dev\abdelrahman\chatcorex\Chatcorex.class
-dev\abdelrahman\chatcorex\listeners\StaffChatListener.class

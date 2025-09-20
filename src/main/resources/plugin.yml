@@ -1,9 +1,9 @@
 name: chatcorex
 version: '1.0'
 main: dev.abdelrahman.chatcorex.Chatcorex
-api-version: '1.21'
+api-version: '1.13'
 authors: [ 3bdoabk ]
-description: A chat core that manage chat Professionally
+description: A chat core that manage chat Professionally and support Placeholdersapi 
 softdepend:
   - PlaceholderAPI
 

@@ -77,7 +77,7 @@ anti-swear:
 
 👤 Author
 **3bdoabk**
+
+
 Made with ❤️ for Minecraft servers.
  
-  permission: chatcorex.staffchat
-  format: "&8[Staff] &b%player_name% &7» &f%message%"

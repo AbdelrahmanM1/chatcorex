@@ -1,0 +1,46 @@
+name: chatcorex
+version: '1.0'
+main: dev.abdelrahman.chatcorex.Chatcorex
+api-version: '1.21'
+authors: [ 3bdoabk ]
+description: A chat core that manage chat Professionally
+softdepend:
+  - PlaceholderAPI
+
+commands:
+  msg:
+    description: Send a private message
+    usage: /msg <player> <message>
+    permission: chatcorex.msg
+    aliases: [tell, whisper, pm]
+  reply:
+    description: Reply to last private message
+    usage: /reply <message>
+    permission: chatcorex.reply
+    aliases: [r]
+  mutechat:
+    description: Toggle chat mute
+    usage: /mutechat
+    permission: chatcorex.mutechat
+    aliases: [mc]
+  staffchat:
+    description: Sends a message to staff chat
+    usage: /staffchat <message>
+    permission: chatcorex.staffchat
+    aliases: [sc, staffc]
+  chatreload:
+    description: Reload Chatcorex config
+    usage: /chatreload
+    permission: chatcorex.reload
+
+permissions:
+  chatcorex.msg:
+    default: true
+  chatcorex.reply:
+    default: true
+  chatcorex.mutechat:
+    default: op
+  chatcorex.reload:
+    default: op
+  chatcorex.staffchat:
+    default: op

@@ -129,7 +129,7 @@ public final class Chatcorex extends JavaPlugin {
     }
 
     /**
-     * Enhanced logging method with consistent formatting
+     * logging method with consistent formatting
      */
     public void log(Level level, String message) {
         String prefix = "[ChatCoreX] ";

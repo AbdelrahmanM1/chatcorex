@@ -1,3 +1,12 @@
+name: chatcorex
+version: '1.0'
+main: dev.abdelrahman.chatcorex.Chatcorex
+api-version: '1.13'
+authors: [3bdoabk]
+description: A chat core that manages chat professionally and supports PlaceholderAPI
+softdepend:
+  - PlaceholderAPI
+
 commands:
   msg:
     description: Send a private message

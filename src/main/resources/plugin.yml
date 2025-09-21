@@ -48,6 +48,8 @@ permissions:
     default: op
   chatcorex.bypasscooldown:
     default: op
+  chatcorex.antiswear.notify:
+    default: op
   chatcorex.admin:
     default: op
     children:
@@ -56,3 +58,4 @@ permissions:
       chatcorex.mutechat: true
       chatcorex.reload: true
       chatcorex.staffchat: true
+      chatcorex.antiswear.notify: true

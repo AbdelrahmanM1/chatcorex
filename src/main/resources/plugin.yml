@@ -1,12 +1,3 @@
-name: chatcorex
-version: '1.0'
-main: dev.abdelrahman.chatcorex.Chatcorex
-api-version: '1.13'
-authors: [ 3bdoabk ]
-description: A chat core that manage chat Professionally and support Placeholdersapi
-softdepend:
-  - PlaceholderAPI
-
 commands:
   msg:
     description: Send a private message
@@ -44,3 +35,15 @@ permissions:
     default: op
   chatcorex.staffchat:
     default: op
+  chatcorex.bypassmute:
+    default: op
+  chatcorex.bypasscooldown:
+    default: op
+  chatcorex.admin:
+    default: op
+    children:
+      chatcorex.bypassmute: true
+      chatcorex.bypasscooldown: true
+      chatcorex.mutechat: true
+      chatcorex.reload: true
+      chatcorex.staffchat: true

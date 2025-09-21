@@ -1,0 +1,86 @@
+chat:
+  format: "&7%rank% &b%player_name% &7» &f%message%"
+  private-to: "&d✉ You → %to%: &f%message%"
+  private-from: "&d✉ %from% → You: &f%message%"
+  muted: "&c⚠ Chat is currently muted!"
+  cooldown: "&c⚠ You must wait %seconds%s before chatting again!"
+  cooldown-time: 5 # seconds
+
+
+staff-chat:
+  enabled: true
+  permission: "chatcorex.staffchat"
+  format: "&5[Staff] &b%player_name% &7» &f%message%"
+
+anti-swear:
+  enabled: true
+  blocked-words:
+    # Strong profanity
+    - fuck
+    - shit
+    - bitch
+    - asshole
+    - bastard
+    - cunt
+    - motherfucker
+    - dick
+    - pussy
+    - cock
+    - faggot
+    - slut
+    - whore
+    - nigga
+    - nigger
+    - retard
+    - cum
+    - jizz
+    - blowjob
+    - handjob
+    - rape
+    - pedo
+    - pedophile
+    - porn
+    - sex
+    - dildo
+    - vagina
+    - penis
+    - tits
+    - boobs
+    - motherfucker
+    - suckmydick
+    - suckmycock
+    - balllicker
+    - asslicker
+    - cockhead
+    - jackoff
+    - gangbang
+    - incest
+    - anal
+    - creampie
+    - horny
+    - mofo
+    - cuntface
+    - dickhead
+    - piss
+    - pisshead
+    - queef
+    - twat
+    - wank
+    - wanker
+    - jerkoff
+    - rimjob
+    - deepthroat
+    - buttfuck
+    - dildohead
+    - donkeyfucker
+    - shithead
+    - assfucker
+    - assmuncher
+    - asswipe
+    - fucker
+    - motherfucking
+    - hell
+    - damn
+  replacement: "***" # overridden by dynamic star-length censoring
+  notify-staff: true
+  staff-permission: "chatcorex.antiswear.notify"
